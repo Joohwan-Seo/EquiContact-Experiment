@@ -1,0 +1,11 @@
+x:0
+y:0
+z:0.19 - 0.30 
+R: I
+peg height = 0.11
+
+hole
+x:21.5inch
+y:0.5 inch
+z:0.125 -0.0175 
+hole_depth =0.035 
