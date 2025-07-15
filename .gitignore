@@ -1,0 +1,5 @@
+*.ckpt 
+*.hdf5 
+ckpt_dir/ 
+datasets/
+data/
