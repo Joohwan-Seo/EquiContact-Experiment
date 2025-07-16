@@ -1,0 +1,3 @@
+[submodule "pipeline/diffusion_edf"]
+	path = pipeline/diffusion_edf
+	url = git@github.com:HorowitzManipulationLab/diff_edf.git

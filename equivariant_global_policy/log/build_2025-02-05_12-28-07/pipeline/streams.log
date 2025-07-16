@@ -1,0 +1,343 @@
+[0.314s] Invoking command in '/home/horowitzlab/ros2_ws/src/pipeline': CONDA_PROMPT_MODIFIER=(diff_inference) PYTHONPATH=/home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/pipeline build --build-base /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build install --record /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/install.log --single-version-externally-managed install_data
+[0.439s] running egg_info
+[0.439s] creating build/pipeline/pipeline.egg-info
+[0.439s] writing build/pipeline/pipeline.egg-info/PKG-INFO
+[0.439s] writing dependency_links to build/pipeline/pipeline.egg-info/dependency_links.txt
+[0.439s] writing entry points to build/pipeline/pipeline.egg-info/entry_points.txt
+[0.439s] writing requirements to build/pipeline/pipeline.egg-info/requires.txt
+[0.439s] writing top-level names to build/pipeline/pipeline.egg-info/top_level.txt
+[0.439s] writing manifest file 'build/pipeline/pipeline.egg-info/SOURCES.txt'
+[0.441s] reading manifest file 'build/pipeline/pipeline.egg-info/SOURCES.txt'
+[0.442s] writing manifest file 'build/pipeline/pipeline.egg-info/SOURCES.txt'
+[0.442s] running build
+[0.442s] running build_py
+[0.442s] creating /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build
+[0.442s] creating /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib
+[0.442s] creating /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline
+[0.442s] copying pipeline/__init__.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline
+[0.442s] creating /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf
+[0.442s] copying pipeline/diff_edf/diff_edf_service.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf
+[0.442s] copying pipeline/diff_edf/__init__.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf
+[0.442s] creating /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf
+[0.442s] copying pipeline/diffusion_edf/diff_edf_service.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf
+[0.442s] copying pipeline/diffusion_edf/setup.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf
+[0.442s] copying pipeline/diffusion_edf/__init__.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf
+[0.443s] creating /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.443s] copying pipeline/diff_edf/diffusion_edf/w3j.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.443s] copying pipeline/diff_edf/diffusion_edf/train_utils.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.443s] copying pipeline/diff_edf/diffusion_edf/embedding.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.443s] copying pipeline/diff_edf/diffusion_edf/gnn_block.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.443s] copying pipeline/diff_edf/diffusion_edf/skip.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.443s] copying pipeline/diff_edf/diffusion_edf/score_head.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.443s] copying pipeline/diff_edf/diffusion_edf/keypoint_extractor.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.443s] copying pipeline/diff_edf/diffusion_edf/multiscale_score_model.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.443s] copying pipeline/diff_edf/diffusion_edf/radial_func.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.443s] copying pipeline/diff_edf/diffusion_edf/unet_feature_extractor.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.443s] copying pipeline/diff_edf/diffusion_edf/graph_attention.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.443s] copying pipeline/diff_edf/diffusion_edf/train.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.443s] copying pipeline/diff_edf/diffusion_edf/dist.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.443s] copying pipeline/diff_edf/diffusion_edf/graph_parser.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.443s] copying pipeline/diff_edf/diffusion_edf/agent_server.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/block.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/connectivity.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/point_attentive_score_model.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/unet.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/forward_only_feature_extractor.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/wigner.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/score_head_ebm.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/score_model_base.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/irreps_utils.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/gnn_data.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/multiscale_tensor_field.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/utils.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/__init__.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/trainer.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/visualize.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/agent.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.444s] copying pipeline/diff_edf/diffusion_edf/loss.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.445s] copying pipeline/diff_edf/diffusion_edf/transforms.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf
+[0.445s] creating /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer
+[0.445s] copying pipeline/diff_edf/diffusion_edf/equiformer/instance_norm.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer
+[0.445s] copying pipeline/diff_edf/diffusion_edf/equiformer/fast_layer_norm.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer
+[0.445s] copying pipeline/diff_edf/diffusion_edf/equiformer/radial_func.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer
+[0.445s] copying pipeline/diff_edf/diffusion_edf/equiformer/dp_attention_transformer.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer
+[0.445s] copying pipeline/diff_edf/diffusion_edf/equiformer/fast_activation.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer
+[0.445s] copying pipeline/diff_edf/diffusion_edf/equiformer/graph_norm.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer
+[0.445s] copying pipeline/diff_edf/diffusion_edf/equiformer/tensor_product_rescale.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer
+[0.445s] copying pipeline/diff_edf/diffusion_edf/equiformer/expnorm_rbf.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer
+[0.445s] copying pipeline/diff_edf/diffusion_edf/equiformer/layer_norm.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer
+[0.445s] copying pipeline/diff_edf/diffusion_edf/equiformer/bessel_rbf.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer
+[0.445s] copying pipeline/diff_edf/diffusion_edf/equiformer/graph_attention_transformer.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer
+[0.445s] copying pipeline/diff_edf/diffusion_edf/equiformer/registry.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer
+[0.445s] copying pipeline/diff_edf/diffusion_edf/equiformer/__init__.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer
+[0.445s] copying pipeline/diff_edf/diffusion_edf/equiformer/drop.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer
+[0.446s] creating /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.446s] copying pipeline/diffusion_edf/diffusion_edf/w3j.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.446s] copying pipeline/diffusion_edf/diffusion_edf/train_utils.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.446s] copying pipeline/diffusion_edf/diffusion_edf/embedding.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.446s] copying pipeline/diffusion_edf/diffusion_edf/gnn_block.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.446s] copying pipeline/diffusion_edf/diffusion_edf/skip.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.446s] copying pipeline/diffusion_edf/diffusion_edf/score_head.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.446s] copying pipeline/diffusion_edf/diffusion_edf/keypoint_extractor.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.446s] copying pipeline/diffusion_edf/diffusion_edf/multiscale_score_model.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.446s] copying pipeline/diffusion_edf/diffusion_edf/radial_func.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.446s] copying pipeline/diffusion_edf/diffusion_edf/unet_feature_extractor.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.446s] copying pipeline/diffusion_edf/diffusion_edf/graph_attention.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.446s] copying pipeline/diffusion_edf/diffusion_edf/train.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.446s] copying pipeline/diffusion_edf/diffusion_edf/dist.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/graph_parser.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/agent_server.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/block.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/connectivity.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/point_attentive_score_model.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/unet.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/forward_only_feature_extractor.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/wigner.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/score_head_ebm.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/score_model_base.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/irreps_utils.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/gnn_data.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/multiscale_tensor_field.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/utils.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/__init__.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/trainer.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/visualize.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.447s] copying pipeline/diffusion_edf/diffusion_edf/agent.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.448s] copying pipeline/diffusion_edf/diffusion_edf/loss.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.448s] copying pipeline/diffusion_edf/diffusion_edf/transforms.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf
+[0.448s] creating /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.448s] copying pipeline/diffusion_edf/diffusion_edf/equiformer/instance_norm.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.448s] copying pipeline/diffusion_edf/diffusion_edf/equiformer/fast_layer_norm.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.448s] copying pipeline/diffusion_edf/diffusion_edf/equiformer/radial_func.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.448s] copying pipeline/diffusion_edf/diffusion_edf/equiformer/dp_attention_transformer.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.448s] copying pipeline/diffusion_edf/diffusion_edf/equiformer/fast_activation.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.448s] copying pipeline/diffusion_edf/diffusion_edf/equiformer/graph_norm.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.448s] copying pipeline/diffusion_edf/diffusion_edf/equiformer/tensor_product_rescale.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.448s] copying pipeline/diffusion_edf/diffusion_edf/equiformer/expnorm_rbf.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.448s] copying pipeline/diffusion_edf/diffusion_edf/equiformer/layer_norm.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.448s] copying pipeline/diffusion_edf/diffusion_edf/equiformer/bessel_rbf.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.448s] copying pipeline/diffusion_edf/diffusion_edf/equiformer/graph_attention_transformer.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.448s] copying pipeline/diffusion_edf/diffusion_edf/equiformer/registry.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.449s] copying pipeline/diffusion_edf/diffusion_edf/equiformer/__init__.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.449s] copying pipeline/diffusion_edf/diffusion_edf/equiformer/drop.py -> /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.449s] running install
+[0.449s] running install_lib
+[0.450s] creating /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline
+[0.450s] creating /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf
+[0.450s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diff_edf_service.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf
+[0.450s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/__init__.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf
+[0.450s] creating /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.450s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/w3j.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.450s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/train_utils.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.450s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/embedding.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.450s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/gnn_block.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.450s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/skip.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.450s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/score_head.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.450s] creating /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer
+[0.450s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer/instance_norm.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer/fast_layer_norm.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer/radial_func.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer/dp_attention_transformer.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer/fast_activation.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer/graph_norm.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer/tensor_product_rescale.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer/expnorm_rbf.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer/layer_norm.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer/bessel_rbf.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer/graph_attention_transformer.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer/registry.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer/__init__.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/equiformer/drop.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/keypoint_extractor.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/multiscale_score_model.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/radial_func.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.451s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/unet_feature_extractor.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/graph_attention.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/train.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/dist.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/graph_parser.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/agent_server.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/block.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/connectivity.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/point_attentive_score_model.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/unet.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/forward_only_feature_extractor.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/wigner.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/score_head_ebm.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/score_model_base.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/irreps_utils.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/gnn_data.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/multiscale_tensor_field.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/utils.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.452s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/__init__.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.453s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/trainer.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.453s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/visualize.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.453s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/agent.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.453s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/loss.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.453s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diff_edf/diffusion_edf/transforms.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf
+[0.453s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/__init__.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline
+[0.453s] creating /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf
+[0.453s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diff_edf_service.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf
+[0.453s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/setup.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf
+[0.453s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/__init__.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf
+[0.453s] creating /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.453s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/w3j.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.453s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/train_utils.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.453s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/embedding.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.453s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/gnn_block.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.453s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/skip.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.453s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/score_head.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.453s] creating /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer/instance_norm.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer/fast_layer_norm.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer/radial_func.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer/dp_attention_transformer.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer/fast_activation.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer/graph_norm.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer/tensor_product_rescale.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer/expnorm_rbf.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer/layer_norm.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer/bessel_rbf.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer/graph_attention_transformer.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer/registry.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer/__init__.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/equiformer/drop.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/keypoint_extractor.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/multiscale_score_model.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/radial_func.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.454s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/unet_feature_extractor.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/graph_attention.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/train.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/dist.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/graph_parser.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/agent_server.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/block.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/connectivity.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/point_attentive_score_model.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/unet.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/forward_only_feature_extractor.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/wigner.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/score_head_ebm.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/score_model_base.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/irreps_utils.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/gnn_data.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/multiscale_tensor_field.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.455s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/utils.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.456s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/__init__.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.456s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/trainer.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.456s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/visualize.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.456s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/agent.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.456s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/loss.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.456s] copying /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build/lib/pipeline/diffusion_edf/diffusion_edf/transforms.py -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf
+[0.456s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diff_edf_service.py to diff_edf_service.cpython-310.pyc
+[0.457s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/__init__.py to __init__.cpython-310.pyc
+[0.457s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/w3j.py to w3j.cpython-310.pyc
+[0.457s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/train_utils.py to train_utils.cpython-310.pyc
+[0.458s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/embedding.py to embedding.cpython-310.pyc
+[0.458s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/gnn_block.py to gnn_block.cpython-310.pyc
+[0.459s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/skip.py to skip.cpython-310.pyc
+[0.459s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/score_head.py to score_head.cpython-310.pyc
+[0.460s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer/instance_norm.py to instance_norm.cpython-310.pyc
+[0.461s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer/fast_layer_norm.py to fast_layer_norm.cpython-310.pyc
+[0.461s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer/radial_func.py to radial_func.cpython-310.pyc
+[0.461s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer/dp_attention_transformer.py to dp_attention_transformer.cpython-310.pyc
+[0.462s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer/fast_activation.py to fast_activation.cpython-310.pyc
+[0.463s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer/graph_norm.py to graph_norm.cpython-310.pyc
+[0.464s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer/tensor_product_rescale.py to tensor_product_rescale.cpython-310.pyc
+[0.465s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer/expnorm_rbf.py to expnorm_rbf.cpython-310.pyc
+[0.466s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer/layer_norm.py to layer_norm.cpython-310.pyc
+[0.466s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer/bessel_rbf.py to bessel_rbf.cpython-310.pyc
+[0.467s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer/graph_attention_transformer.py to graph_attention_transformer.cpython-310.pyc
+[0.470s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer/registry.py to registry.cpython-310.pyc
+[0.470s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer/__init__.py to __init__.cpython-310.pyc
+[0.470s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/equiformer/drop.py to drop.cpython-310.pyc
+[0.470s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/keypoint_extractor.py to keypoint_extractor.cpython-310.pyc
+[0.471s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/multiscale_score_model.py to multiscale_score_model.cpython-310.pyc
+[0.471s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/radial_func.py to radial_func.cpython-310.pyc
+[0.472s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/unet_feature_extractor.py to unet_feature_extractor.cpython-310.pyc
+[0.474s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/graph_attention.py to graph_attention.cpython-310.pyc
+[0.474s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/train.py to train.cpython-310.pyc
+[0.475s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/dist.py to dist.cpython-310.pyc
+[0.476s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/graph_parser.py to graph_parser.cpython-310.pyc
+[0.477s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/agent_server.py to agent_server.cpython-310.pyc
+[0.478s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/block.py to block.cpython-310.pyc
+[0.478s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/connectivity.py to connectivity.cpython-310.pyc
+[0.479s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/point_attentive_score_model.py to point_attentive_score_model.cpython-310.pyc
+[0.479s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/unet.py to unet.cpython-310.pyc
+[0.481s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/forward_only_feature_extractor.py to forward_only_feature_extractor.cpython-310.pyc
+[0.482s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/wigner.py to wigner.cpython-310.pyc
+[0.483s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/score_head_ebm.py to score_head_ebm.cpython-310.pyc
+[0.484s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/score_model_base.py to score_model_base.cpython-310.pyc
+[0.484s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/irreps_utils.py to irreps_utils.cpython-310.pyc
+[0.485s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/gnn_data.py to gnn_data.cpython-310.pyc
+[0.485s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/multiscale_tensor_field.py to multiscale_tensor_field.cpython-310.pyc
+[0.486s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/utils.py to utils.cpython-310.pyc
+[0.486s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/__init__.py to __init__.cpython-310.pyc
+[0.487s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/trainer.py to trainer.cpython-310.pyc
+[0.488s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/visualize.py to visualize.cpython-310.pyc
+[0.489s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/agent.py to agent.cpython-310.pyc
+[0.489s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/loss.py to loss.cpython-310.pyc
+[0.490s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diff_edf/diffusion_edf/transforms.py to transforms.cpython-310.pyc
+[0.492s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/__init__.py to __init__.cpython-310.pyc
+[0.492s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diff_edf_service.py to diff_edf_service.cpython-310.pyc
+[0.492s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/setup.py to setup.cpython-310.pyc
+[0.492s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/__init__.py to __init__.cpython-310.pyc
+[0.493s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/w3j.py to w3j.cpython-310.pyc
+[0.493s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/train_utils.py to train_utils.cpython-310.pyc
+[0.494s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/embedding.py to embedding.cpython-310.pyc
+[0.494s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/gnn_block.py to gnn_block.cpython-310.pyc
+[0.494s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/skip.py to skip.cpython-310.pyc
+[0.495s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/score_head.py to score_head.cpython-310.pyc
+[0.495s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer/instance_norm.py to instance_norm.cpython-310.pyc
+[0.496s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer/fast_layer_norm.py to fast_layer_norm.cpython-310.pyc
+[0.496s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer/radial_func.py to radial_func.cpython-310.pyc
+[0.496s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer/dp_attention_transformer.py to dp_attention_transformer.cpython-310.pyc
+[0.497s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer/fast_activation.py to fast_activation.cpython-310.pyc
+[0.498s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer/graph_norm.py to graph_norm.cpython-310.pyc
+[0.499s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer/tensor_product_rescale.py to tensor_product_rescale.cpython-310.pyc
+[0.500s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer/expnorm_rbf.py to expnorm_rbf.cpython-310.pyc
+[0.500s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer/layer_norm.py to layer_norm.cpython-310.pyc
+[0.501s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer/bessel_rbf.py to bessel_rbf.cpython-310.pyc
+[0.501s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer/graph_attention_transformer.py to graph_attention_transformer.cpython-310.pyc
+[0.504s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer/registry.py to registry.cpython-310.pyc
+[0.504s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer/__init__.py to __init__.cpython-310.pyc
+[0.504s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/equiformer/drop.py to drop.cpython-310.pyc
+[0.505s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/keypoint_extractor.py to keypoint_extractor.cpython-310.pyc
+[0.506s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/multiscale_score_model.py to multiscale_score_model.cpython-310.pyc
+[0.506s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/radial_func.py to radial_func.cpython-310.pyc
+[0.507s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/unet_feature_extractor.py to unet_feature_extractor.cpython-310.pyc
+[0.508s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/graph_attention.py to graph_attention.cpython-310.pyc
+[0.509s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/train.py to train.cpython-310.pyc
+[0.509s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/dist.py to dist.cpython-310.pyc
+[0.511s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/graph_parser.py to graph_parser.cpython-310.pyc
+[0.512s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/agent_server.py to agent_server.cpython-310.pyc
+[0.512s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/block.py to block.cpython-310.pyc
+[0.513s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/connectivity.py to connectivity.cpython-310.pyc
+[0.513s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/point_attentive_score_model.py to point_attentive_score_model.cpython-310.pyc
+[0.514s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/unet.py to unet.cpython-310.pyc
+[0.515s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/forward_only_feature_extractor.py to forward_only_feature_extractor.cpython-310.pyc
+[0.516s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/wigner.py to wigner.cpython-310.pyc
+[0.517s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/score_head_ebm.py to score_head_ebm.cpython-310.pyc
+[0.518s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/score_model_base.py to score_model_base.cpython-310.pyc
+[0.519s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/irreps_utils.py to irreps_utils.cpython-310.pyc
+[0.519s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/gnn_data.py to gnn_data.cpython-310.pyc
+[0.520s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/multiscale_tensor_field.py to multiscale_tensor_field.cpython-310.pyc
+[0.521s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/utils.py to utils.cpython-310.pyc
+[0.521s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/__init__.py to __init__.cpython-310.pyc
+[0.522s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/trainer.py to trainer.cpython-310.pyc
+[0.523s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/visualize.py to visualize.cpython-310.pyc
+[0.524s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/agent.py to agent.cpython-310.pyc
+[0.524s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/loss.py to loss.cpython-310.pyc
+[0.525s] byte-compiling /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline/diffusion_edf/diffusion_edf/transforms.py to transforms.cpython-310.pyc
+[0.526s] running install_data
+[0.526s] creating /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/share/ament_index
+[0.527s] creating /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/share/ament_index/resource_index
+[0.527s] creating /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/share/ament_index/resource_index/packages
+[0.527s] copying resource/pipeline -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/share/ament_index/resource_index/packages
+[0.527s] copying package.xml -> /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/share/pipeline
+[0.527s] running install_egg_info
+[0.527s] Copying build/pipeline/pipeline.egg-info to /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline-0.0.0-py3.10.egg-info
+[0.528s] running install_scripts
+[0.538s] Installing DiffEDFService script to /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/pipeline
+[0.539s] writing list of installed files to '/home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/install.log'
+[0.551s] Invoked command in '/home/horowitzlab/ros2_ws/src/pipeline' returned '0': CONDA_PROMPT_MODIFIER=(diff_inference) PYTHONPATH=/home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/pipeline build --build-base /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build install --record /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/install.log --single-version-externally-managed install_data
