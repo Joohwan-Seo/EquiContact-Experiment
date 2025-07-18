@@ -3,3 +3,9 @@
 ckpt_dir/ 
 datasets/
 data/
+
+# pycache
+__pycache__/
+*.pyc
+*.pyo
+
