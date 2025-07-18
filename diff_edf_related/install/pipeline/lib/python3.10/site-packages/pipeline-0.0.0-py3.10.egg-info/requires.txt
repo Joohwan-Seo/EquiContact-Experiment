@@ -1,2 +1,0 @@
-setuptools
-torch==1.13.1

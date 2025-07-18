@@ -1,3 +1,0 @@
-[console_scripts]
-DiffEDFService = pipeline.diffusion_edf.diff_edf_service:main
-

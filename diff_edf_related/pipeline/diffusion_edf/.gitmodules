@@ -1,3 +1,0 @@
-[submodule "edf_interface"]
-	path = edf_interface
-	url = git@github.com:HorowitzManipulationLab/edf.git
