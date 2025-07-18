@@ -1,0 +1,57 @@
+train_config:
+  raw_dataset_dir:
+    - "/home/exx/datasets/data_20_0"
+    - "/home/exx/datasets/data_20_1"
+    - "/home/exx/datasets/data_20_2"
+    - "/home/exx/datasets/data_20_3"
+    - "/home/exx/datasets/data_20_4"
+    - "/home/exx/datasets/data_20_5"
+    - "/home/exx/datasets/data_20_6"
+    - "/home/exx/datasets/data_20_7"
+    - "/home/exx/datasets/data_20_8"
+    - "/home/exx/datasets/data_20_9"
+  output_dataset_dir: "/home/exx/datasets/s_GCEV_FT_a_relative_pose_gain"
+  ckpt_dir: "ckpt_dir/s_GCEV_FT_a_realtive_pose_gain_try2"
+  # reference_frame: [552.10, 15.13, 370, 180, 0, 90] # default
+  # reference_frame: [572.10, 0.13, 370, 174, 6, 90] # default
+  reference_frame: [538.80, -45.33, 334.25, -30, 180, 0]
+  # reference_frame: [538.80, -45.33, 334.25, -30, 180, 0]
+  # reference_frame: [552.10, -86.3, 370, 180, 0, 90]
+  # reference_frame: [531.30, -43, 295.44, -45, 180, 0]
+  # reference_frame: [532.10, 5.13, 370, 175, 10, 85]
+  noisy_reference: True
+  noisy_reference_type: "random" # vs "fixed"
+  kl_weight : 10
+  lr: 1e-05
+  num_epochs: 8000
+  batch_size: 64
+  crop_image: False
+  crop_ratio: 0.7
+  mask_image: False
+  mask_ratio: 0.5
+
+task_config:
+  task_name: "PIH_place"
+  logging_yaml: "logging_05012025.yaml"
+  episode_len: 550 #for now
+  task_name: "PIH_gains_s_GCEV_a_relative_pose"
+  state_category: ['GCEV', 'FT']
+  state_dim: 12
+  action_category: ['relative_pose', 'gains']
+  action_dim: 12
+  camera_names: ['realsense', 'arducam']
+  num_queries: 60
+  num_episodes: 137
+  policy_class: "ACT"
+  hidden_dim: 512
+  dim_feedforward: 3200
+
+
+eval_config:
+  ckpt_dir: "act/ckpt_dir/s_GCEV_FT_a_relative_pose_gain_try2"  
+  ckpt_name: "policy_best.ckpt"
+  num_episodes: 1
+  num_queries: 60
+  episode_len: 2000
+  frequency: 30
+  temporal_agg: True

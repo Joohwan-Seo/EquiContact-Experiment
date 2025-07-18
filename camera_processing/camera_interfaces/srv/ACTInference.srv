@@ -1,0 +1,5 @@
+string task 
+float64[] pick_reference_frame 
+float64[] place_reference_frame
+---
+bool finished

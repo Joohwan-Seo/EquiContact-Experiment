@@ -1,0 +1,72 @@
+policy:
+  class: "ACT"
+  task: "real_peg_cart_gains"
+  ckpt_dir: '/home/horowitzlab/ros2_ws_clean/src/inference_pipeline/inference_pipeline/act/ckpt_dir/real_peg_2view'
+  ckpt_name: "policy_best.ckpt"
+  lr: 0.0001
+  chunk_size: 100
+  kl_weight: 10
+  hidden_dim: 512
+  dim_feedforward: 3200
+  enc_layers: 4
+  dec_layers: 7
+  nheads: 8
+  lr_backbone: 0.00001
+  backbone: 'resnet18'
+  num_epochs: 8000
+  episode_len: 5000
+  seed: 0
+  temporal_agg: True
+  onscreen_render: False
+  is_sim: False
+  state: 
+    dim: 6 
+  action: 
+    dim: 6 
+  image:
+    dim: [224, 224, 3]
+  
+env:
+  camera_names: ["wrist", "wrist_back"]
+  frequency: 50
+  max_episode_steps: 10000 
+  debug: False
+  inputs: 
+    wrist: 
+      type: "rgb"
+      size: [224, 224,3]
+      topic: "/realsense/camera/color/image_raw"
+      msg_type: "Image"
+    wrist_back: 
+      type: "rgb"
+      size: [224, 224,3]
+      topic: "/arducam/color/image_raw"
+      msg_type: "Image"
+    proprio: 
+      type: "proprio"
+      size: [12]
+      topic: "/indy/state"
+      msg_type: RoboData
+      format:
+        pose: 
+          ind: [0, 5]
+          type: "cartesian"
+          locality: "global"
+        ft:
+          ind: [6, 11]
+          locality: "None"
+      
+  outputs:
+    
+    action:
+      msg_type: "CompACT"
+      topic: "/indy/act2"
+      format: 
+        pose_target: 
+          ind: [0, 5]
+          type: "cartesian"
+          locality: "global"
+        gains:
+          ind: [6, 11]   
+
+  

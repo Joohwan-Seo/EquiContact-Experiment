@@ -1,0 +1,14 @@
+Received signal: 11
+Stack trace (most recent call last):
+#11   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#10   Object "/opt/ros/humble/lib/rclcpp_components/component_container", at 0x5a749dc08774, in 
+#9    Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f7ff6029e3f, in __libc_start_main
+#8    Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f7ff6029d8f, in 
+#7    Object "/opt/ros/humble/lib/rclcpp_components/component_container", at 0x5a749dc085de, in 
+#6    Object "/opt/ros/humble/lib/rclcpp_components/component_container", at 0x5a749dc088d3, in 
+#5    Object "/opt/ros/humble/lib/libcomponent_manager.so", at 0x7f7ff68c96a7, in rclcpp_components::ComponentManager::~ComponentManager()
+#4    Object "/opt/ros/humble/lib/libcomponent_manager.so", at 0x7f7ff68c9109, in 
+#3    Object "/home/horowitzlab/ros2_ws_clean/install/orbbec_camera/lib/liborbbec_camera.so", at 0x7f7fef39d41b, in orbbec_camera::OBCameraNodeDriver::~OBCameraNodeDriver()
+#2    Object "/home/horowitzlab/ros2_ws_clean/install/orbbec_camera/lib/liborbbec_camera.so", at 0x7f7fef3b4e6b, in orbbec_camera::OBCameraNode::closeSocSyncPwmTrigger()
+#1    Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f7ff604251f, in 
+#0    Object "/home/horowitzlab/ros2_ws_clean/install/orbbec_camera/lib/liborbbec_camera.so", at 0x7f7fef39f23f, in signalHandler(int)

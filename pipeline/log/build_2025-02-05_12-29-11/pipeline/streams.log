@@ -1,0 +1,21 @@
+[0.317s] Invoking command in '/home/horowitzlab/ros2_ws/src/pipeline': CONDA_PROMPT_MODIFIER=(diff_inference) PYTHONPATH=/home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/pipeline build --build-base /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build install --record /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/install.log --single-version-externally-managed install_data
+[0.441s] running egg_info
+[0.442s] writing build/pipeline/pipeline.egg-info/PKG-INFO
+[0.442s] writing dependency_links to build/pipeline/pipeline.egg-info/dependency_links.txt
+[0.442s] writing entry points to build/pipeline/pipeline.egg-info/entry_points.txt
+[0.442s] writing requirements to build/pipeline/pipeline.egg-info/requires.txt
+[0.442s] writing top-level names to build/pipeline/pipeline.egg-info/top_level.txt
+[0.444s] reading manifest file 'build/pipeline/pipeline.egg-info/SOURCES.txt'
+[0.445s] writing manifest file 'build/pipeline/pipeline.egg-info/SOURCES.txt'
+[0.445s] running build
+[0.445s] running build_py
+[0.448s] running install
+[0.448s] running install_lib
+[0.452s] running install_data
+[0.452s] running install_egg_info
+[0.453s] removing '/home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline-0.0.0-py3.10.egg-info' (and everything under it)
+[0.453s] Copying build/pipeline/pipeline.egg-info to /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages/pipeline-0.0.0-py3.10.egg-info
+[0.454s] running install_scripts
+[0.464s] Installing DiffEDFService script to /home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/pipeline
+[0.466s] writing list of installed files to '/home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/install.log'
+[0.477s] Invoked command in '/home/horowitzlab/ros2_ws/src/pipeline' returned '0': CONDA_PROMPT_MODIFIER=(diff_inference) PYTHONPATH=/home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/horowitzlab/ros2_ws/src/pipeline/install/pipeline/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/pipeline build --build-base /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/build install --record /home/horowitzlab/ros2_ws/src/pipeline/build/pipeline/install.log --single-version-externally-managed install_data

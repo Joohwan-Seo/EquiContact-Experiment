@@ -1,0 +1,13 @@
+torch==1.13.1+cu117
+torchvision
+e3nn==0.4.4
+pyyaml
+tqdm
+jupyter
+pandas
+plotly
+dash
+dash_vtk
+dash_daq
+beartype
+tensorboard

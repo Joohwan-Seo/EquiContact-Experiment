@@ -1,0 +1,7 @@
+string task
+string scene_pcd_path
+string grasp_pcd_path
+---
+float64[] position
+float64[] orientation
+bool success

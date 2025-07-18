@@ -1,0 +1,7 @@
+string camera_id
+string save_dir 
+int64 num_imgs 
+int64 init_num
+float64 delay
+---
+bool success

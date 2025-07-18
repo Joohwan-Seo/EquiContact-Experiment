@@ -1,0 +1,7 @@
+string task 
+float64[] reference_frame 
+---
+bool finished 
+float64[] final_state 
+---
+float64[] curr_state
